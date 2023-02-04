@@ -10,6 +10,7 @@
   border: 2px beige solid;
   border-radius: 50px;
   margin-top: 10px;
+  z-index: 1;
 }
 .choose-window .piece-button {
   background: none;

@@ -23,36 +23,16 @@ const WitajPokarmie = (props) => {
 		alt: false,
 		tenor: false,
 		bas: false,
-		// play: false,
+		// : false,
 	});
 
-	const { sopran, alt, tenor, bas, play } = voice;
+	const { sopran, alt, tenor, bas } = voice;
 
 	const handleInputChange = (e) => {
 		setVoice({
 			...voice,
 			[e.target.id]: !voice[e.target.id],
 		});
-	};
-
-	const pauseAudio = () => {
-		setVoice({
-			...voice,
-			play: false,
-		});
-	};
-
-	const playAudio = () => {
-		setVoice({
-			...voice,
-			play: false,
-		});
-		setTimeout(() => {
-			setVoice({
-				...voice,
-				play: true,
-			});
-		}, 100);
 	};
 	return (
 		<div className="down-content">
@@ -95,64 +75,55 @@ const WitajPokarmie = (props) => {
 					/>
 				</label>
 			</div>
-			<div className="buttons-container">
-				<button className="play-btn" onClick={playAudio}>
-					Graj
-				</button>
-				<button className="play-btn" onClick={pauseAudio}>
-					Stop
-				</button>
+			<div className="audio-container">
+				{sopran && !alt && !tenor && !bas ? (
+					<audio src={wpSopran} id="sopran-audio" controls />
+				) : null}
+				{alt && !sopran && !tenor && !bas ? (
+					<audio src={wpAlt} id="alt-audio" controls />
+				) : null}
+				{tenor && !sopran && !alt && !bas ? (
+					<audio src={wpTenor} id="tenor-audio" controls />
+				) : null}
+				{bas && !sopran && !alt && !tenor ? (
+					<audio src={wpBas} id="bas-audio" controls />
+				) : null}
+				{sopran && alt && !tenor && !bas ? (
+					<audio src={wpSopranAlt} id="sopran-alt-audio" controls />
+				) : null}
+				{sopran && tenor && !alt && !bas ? (
+					<audio src={wpSopranTenor} id="sopran-tenor-audio" controls />
+				) : null}
+				{sopran && bas && !alt && !tenor ? (
+					<audio src={wpSopranBass} id="sopran-bas-audio" controls />
+				) : null}
+				{alt && tenor && !sopran && !bas ? (
+					<audio src={wpAltTenor} id="alt-tenor-audio" controls />
+				) : null}
+				{alt && bas && !sopran && !tenor ? (
+					<audio src={wpAltBass} id="alt-bas-audio" controls />
+				) : null}
+				{tenor && bas && !sopran && !alt ? (
+					<audio src={wpTenorBass} id="tenor-bas-audio" controls />
+				) : null}
+				{sopran && alt && tenor && !bas ? (
+					<audio src={wpSopranAltTenor} id="sopran-alt-tenor-audio" controls />
+				) : null}
+				{sopran && tenor && bas && !alt ? (
+					<audio src={wpSopranTenorBass} id="sopran-tenor-bas-audio" controls />
+				) : null}
+				{sopran && alt && bas && !tenor ? (
+					<audio src={wpSopranAltBass} id="sopran-alt-bas-audio" controls />
+				) : null}
+				{alt && tenor && bas && !sopran ? (
+					<audio src={wpAltTenorBass} id="alt-tenor-bas-audio" controls />
+				) : null}
+				{sopran && alt && tenor && bas ? (
+					<audio src={wpAll} id="all-audio" controls />
+				) : null}
 			</div>
-
 			<div className="notes-container">
 				<img src={img3} className="notes" alt="Witaj Pokarmie - nuty" />
-			</div>
-			<div className="audio-container">
-				{sopran && !alt && !tenor && !bas && play ? (
-					<audio src={wpSopran} id="sopran-audio" autoPlay />
-				) : null}
-				{alt && !sopran && !tenor && !bas && play ? (
-					<audio src={wpAlt} id="alt-audio" autoPlay />
-				) : null}
-				{tenor && !sopran && !alt && !bas && play ? (
-					<audio src={wpTenor} id="tenor-audio" autoPlay />
-				) : null}
-				{bas && !sopran && !alt && !tenor && play ? (
-					<audio src={wpBas} id="bas-audio" autoPlay />
-				) : null}
-				{sopran && alt && !tenor && !bas && play ? (
-					<audio src={wpSopranAlt} id="sopran-alt-audio" autoPlay />
-				) : null}
-				{sopran && tenor && !alt && !bas && play ? (
-					<audio src={wpSopranTenor} id="sopran-tenor-audio" autoPlay />
-				) : null}
-				{sopran && bas && !alt && !tenor && play ? (
-					<audio src={wpSopranBass} id="sopran-bas-audio" autoPlay />
-				) : null}
-				{alt && tenor && !sopran && !bas && play ? (
-					<audio src={wpAltTenor} id="alt-tenor-audio" autoPlay />
-				) : null}
-				{alt && bas && !sopran && !tenor && play ? (
-					<audio src={wpAltBass} id="alt-bas-audio" autoPlay />
-				) : null}
-				{tenor && bas && !sopran && !alt && play ? (
-					<audio src={wpTenorBass} id="tenor-bas-audio" autoPlay />
-				) : null}
-				{sopran && alt && tenor && !bas && play ? (
-					<audio src={wpSopranAltTenor} id="sopran-alt-tenor-audio" autoPlay />
-				) : null}
-				{sopran && tenor && bas && !alt && play ? (
-					<audio src={wpSopranTenorBass} id="sopran-tenor-bas-audio" autoPlay />
-				) : null}
-				{sopran && alt && bas && !tenor && play ? (
-					<audio src={wpSopranAltBass} id="sopran-alt-bas-audio" autoPlay />
-				) : null}
-				{alt && tenor && bas && !sopran && play ? (
-					<audio src={wpAltTenorBass} id="alt-tenor-bas-audio" autoPlay />
-				) : null}
-				{sopran && alt && tenor && bas && play ? (
-					<audio src={wpAll} id="all-audio" autoPlay />
-				) : null}
 			</div>
 		</div>
 	);

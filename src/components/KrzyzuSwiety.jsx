@@ -23,36 +23,15 @@ const KrzyzuSwiety = (props) => {
 		alt: false,
 		tenor: false,
 		bas: false,
-		// play: false,
 	});
 
-	const { sopran, alt, tenor, bas, play } = voice;
+	const { sopran, alt, tenor, bas } = voice;
 
 	const handleInputChange = (e) => {
 		setVoice({
 			...voice,
 			[e.target.id]: !voice[e.target.id],
 		});
-	};
-
-	const pauseAudio = () => {
-		setVoice({
-			...voice,
-			play: false,
-		});
-	};
-
-	const playAudio = () => {
-		setVoice({
-			...voice,
-			play: false,
-		});
-		setTimeout(() => {
-			setVoice({
-				...voice,
-				play: true,
-			});
-		}, 100);
 	};
 	return (
 		<div className="down-content">
@@ -95,64 +74,56 @@ const KrzyzuSwiety = (props) => {
 					/>
 				</label>
 			</div>
-			<div className="buttons-container">
-				<button className="play-btn" onClick={playAudio}>
-					Graj
-				</button>
-				<button className="play-btn" onClick={pauseAudio}>
-					Stop
-				</button>
-			</div>
 
+			<div className="audio-container">
+				{sopran && !alt && !tenor && !bas ? (
+					<audio src={ksSopran} id="sopran-audio" controls />
+				) : null}
+				{alt && !sopran && !tenor && !bas ? (
+					<audio src={ksAlt} id="alt-audio" controls />
+				) : null}
+				{tenor && !sopran && !alt && !bas ? (
+					<audio src={ksTenor} id="tenor-audio" controls />
+				) : null}
+				{bas && !sopran && !alt && !tenor ? (
+					<audio src={ksBas} id="bas-audio" controls />
+				) : null}
+				{sopran && alt && !tenor && !bas ? (
+					<audio src={ksSopranAlt} id="sopran-alt-audio" controls />
+				) : null}
+				{sopran && tenor && !alt && !bas ? (
+					<audio src={ksSopranTenor} id="sopran-tenor-audio" controls />
+				) : null}
+				{sopran && bas && !alt && !tenor ? (
+					<audio src={ksSopranBass} id="sopran-bas-audio" controls />
+				) : null}
+				{alt && tenor && !sopran && !bas ? (
+					<audio src={ksAltTenor} id="alt-tenor-audio" controls />
+				) : null}
+				{alt && bas && !sopran && !tenor ? (
+					<audio src={ksAltBass} id="alt-bas-audio" controls />
+				) : null}
+				{tenor && bas && !sopran && !alt ? (
+					<audio src={ksTenorBass} id="tenor-bas-audio" controls />
+				) : null}
+				{sopran && alt && tenor && !bas ? (
+					<audio src={ksSopranAltTenor} id="sopran-alt-tenor-audio" controls />
+				) : null}
+				{sopran && tenor && bas && !alt ? (
+					<audio src={ksSopranTenorBass} id="sopran-tenor-bas-audio" controls />
+				) : null}
+				{sopran && alt && bas && !tenor ? (
+					<audio src={ksSopranAltBass} id="sopran-alt-bas-audio" controls />
+				) : null}
+				{alt && tenor && bas && !sopran ? (
+					<audio src={ksAltTenorBass} id="alt-tenor-bas-audio" controls />
+				) : null}
+				{sopran && alt && tenor && bas ? (
+					<audio src={ksAll} id="all-audio" controls />
+				) : null}
+			</div>
 			<div className="notes-container">
 				<img src={img2} className="notes" alt="Krzyżu Święty - nuty" />
-			</div>
-			<div className="audio-container">
-				{sopran && !alt && !tenor && !bas && play ? (
-					<audio src={ksSopran} id="sopran-audio" autoPlay />
-				) : null}
-				{alt && !sopran && !tenor && !bas && play ? (
-					<audio src={ksAlt} id="alt-audio" autoPlay />
-				) : null}
-				{tenor && !sopran && !alt && !bas && play ? (
-					<audio src={ksTenor} id="tenor-audio" autoPlay />
-				) : null}
-				{bas && !sopran && !alt && !tenor && play ? (
-					<audio src={ksBas} id="bas-audio" autoPlay />
-				) : null}
-				{sopran && alt && !tenor && !bas && play ? (
-					<audio src={ksSopranAlt} id="sopran-alt-audio" autoPlay />
-				) : null}
-				{sopran && tenor && !alt && !bas && play ? (
-					<audio src={ksSopranTenor} id="sopran-tenor-audio" autoPlay />
-				) : null}
-				{sopran && bas && !alt && !tenor && play ? (
-					<audio src={ksSopranBass} id="sopran-bas-audio" autoPlay />
-				) : null}
-				{alt && tenor && !sopran && !bas && play ? (
-					<audio src={ksAltTenor} id="alt-tenor-audio" autoPlay />
-				) : null}
-				{alt && bas && !sopran && !tenor && play ? (
-					<audio src={ksAltBass} id="alt-bas-audio" autoPlay />
-				) : null}
-				{tenor && bas && !sopran && !alt && play ? (
-					<audio src={ksTenorBass} id="tenor-bas-audio" autoPlay />
-				) : null}
-				{sopran && alt && tenor && !bas && play ? (
-					<audio src={ksSopranAltTenor} id="sopran-alt-tenor-audio" autoPlay />
-				) : null}
-				{sopran && tenor && bas && !alt && play ? (
-					<audio src={ksSopranTenorBass} id="sopran-tenor-bas-audio" autoPlay />
-				) : null}
-				{sopran && alt && bas && !tenor && play ? (
-					<audio src={ksSopranAltBass} id="sopran-alt-bas-audio" autoPlay />
-				) : null}
-				{alt && tenor && bas && !sopran && play ? (
-					<audio src={ksAltTenorBass} id="alt-tenor-bas-audio" autoPlay />
-				) : null}
-				{sopran && alt && tenor && bas && play ? (
-					<audio src={ksAll} id="all-audio" autoPlay />
-				) : null}
 			</div>
 		</div>
 	);

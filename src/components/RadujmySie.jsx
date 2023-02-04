@@ -15,37 +15,15 @@ const RadujmySie = (props) => {
 		sopran: false,
 		alt: false,
 		tenor: false,
-		bas: false,
-		// play: false,
 	});
 
-	const { sopran, alt, tenor, bas, play } = voice;
+	const { sopran, alt, tenor } = voice;
 
 	const handleInputChange = (e) => {
 		setVoice({
 			...voice,
 			[e.target.id]: !voice[e.target.id],
 		});
-	};
-
-	const pauseAudio = () => {
-		setVoice({
-			...voice,
-			play: false,
-		});
-	};
-
-	const playAudio = () => {
-		setVoice({
-			...voice,
-			play: false,
-		});
-		setTimeout(() => {
-			setVoice({
-				...voice,
-				play: true,
-			});
-		}, 100);
 	};
 	return (
 		<div className="down-content">
@@ -78,53 +56,35 @@ const RadujmySie = (props) => {
 						checked={tenor}
 					/>
 				</label>
-				<label htmlFor="bas">
-					Bas
-					<input
-						type="checkbox"
-						id="bas"
-						onChange={handleInputChange}
-						checked={bas}
-						disabled={true}
-					/>
-				</label>
-			</div>
-			<div className="buttons-container">
-				<button className="play-btn" onClick={playAudio}>
-					Graj
-				</button>
-				<button className="play-btn" onClick={pauseAudio}>
-					Stop
-				</button>
 			</div>
 
+			<div className="audio-container">
+				{sopran && !alt && !tenor ? (
+					<audio src={rsSopran} id="sopran-audio" controls />
+				) : null}
+				{alt && !sopran && !tenor ? (
+					<audio src={rsAlt} id="alt-audio" controls />
+				) : null}
+				{tenor && !sopran && !alt ? (
+					<audio src={rsTenor} id="tenor-audio" controls />
+				) : null}
+				{sopran && alt && !tenor ? (
+					<audio src={rsSopranAlt} id="sopran-alt-audio" controls />
+				) : null}
+				{sopran && tenor && !alt ? (
+					<audio src={rsSopranTenor} id="sopran-tenor-audio" controls />
+				) : null}
+
+				{alt && tenor && !sopran ? (
+					<audio src={rsAltTenor} id="alt-tenor-audio" controls />
+				) : null}
+				{sopran && alt && tenor ? (
+					<audio src={rsAll} id="all-audio" controls />
+				) : null}
+			</div>
 			<div className="notes-container">
 				<img src={img4r1} className="rs" alt="radujmy-sie - nuty1" />
 				<img src={img4r2} className="rs" alt="radujmy-sie - nuty2" />
-			</div>
-			<div className="audio-container">
-				{sopran && !alt && !tenor && play ? (
-					<audio src={rsSopran} id="sopran-audio" autoPlay />
-				) : null}
-				{alt && !sopran && !tenor && play ? (
-					<audio src={rsAlt} id="alt-audio" autoPlay />
-				) : null}
-				{tenor && !sopran && !alt && play ? (
-					<audio src={rsTenor} id="tenor-audio" autoPlay />
-				) : null}
-				{sopran && alt && !tenor && play ? (
-					<audio src={rsSopranAlt} id="sopran-alt-audio" autoPlay />
-				) : null}
-				{sopran && tenor && !alt && play ? (
-					<audio src={rsSopranTenor} id="sopran-tenor-audio" autoPlay />
-				) : null}
-
-				{alt && tenor && !sopran && play ? (
-					<audio src={rsAltTenor} id="alt-tenor-audio" autoPlay />
-				) : null}
-				{sopran && alt && tenor && play ? (
-					<audio src={rsAll} id="all-audio" autoPlay />
-				) : null}
 			</div>
 		</div>
 	);
