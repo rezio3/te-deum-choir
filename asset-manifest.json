@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/te-deum-choir/static/css/main.76700614.css",
+    "main.js": "/te-deum-choir/static/js/main.6ee0cb14.js",
+    "static/media/alt-tenor-bas.mp3": "/te-deum-choir/static/media/alt-tenor-bas.208884015a5da44aadb1.mp3",
+    "static/media/all.mp3": "/te-deum-choir/static/media/all.70374136294cde38ae75.mp3",
+    "static/media/alt-bas.mp3": "/te-deum-choir/static/media/alt-bas.df6b72887f5b2060159c.mp3",
+    "static/media/sopran-alt-bas.mp3": "/te-deum-choir/static/media/sopran-alt-bas.a6b67a01a15e5f14ac94.mp3",
+    "static/media/sopran-tenor-bas.mp3": "/te-deum-choir/static/media/sopran-tenor-bas.b353163e5db5cd65b498.mp3",
+    "static/media/tenor-bas.mp3": "/te-deum-choir/static/media/tenor-bas.6d5a64a2d8dfee8bca73.mp3",
+    "static/media/bas.mp3": "/te-deum-choir/static/media/bas.a08ee1a2a7441c559d98.mp3",
+    "static/media/sopran-bas.mp3": "/te-deum-choir/static/media/sopran-bas.6c635d4cd65b78a832c5.mp3",
+    "static/media/alt-tenor.mp3": "/te-deum-choir/static/media/alt-tenor.886eb622c4fc184445df.mp3",
+    "static/media/sopran-alt-tenor.mp3": "/te-deum-choir/static/media/sopran-alt-tenor.cdad30cb619bb92f57f1.mp3",
+    "static/media/sopran-tenor.mp3": "/te-deum-choir/static/media/sopran-tenor.7e9d7a58d5e1a66bc1e2.mp3",
+    "static/media/tenor.mp3": "/te-deum-choir/static/media/tenor.b5fcf6982e54e1cdae49.mp3",
+    "static/media/sopran-alt.mp3": "/te-deum-choir/static/media/sopran-alt.9169c2d1fc43dd394b33.mp3",
+    "static/media/alt.mp3": "/te-deum-choir/static/media/alt.8ff1df9942a097700217.mp3",
+    "static/media/sopran.mp3": "/te-deum-choir/static/media/sopran.608a2fa29d0448a8dedf.mp3",
+    "static/media/dzieki-Ci-Panie.jpg": "/te-deum-choir/static/media/dzieki-Ci-Panie.0ec385c8b7fd5e7b17dd.jpg",
+    "static/media/krzyzu_swiety_nade_wszystko-1.jpg": "/te-deum-choir/static/media/krzyzu_swiety_nade_wszystko-1.8d9aa41452eb33b32e72.jpg",
+    "index.html": "/te-deum-choir/index.html",
+    "main.76700614.css.map": "/te-deum-choir/static/css/main.76700614.css.map",
+    "main.6ee0cb14.js.map": "/te-deum-choir/static/js/main.6ee0cb14.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76700614.css",
+    "static/js/main.6ee0cb14.js"
+  ]
+}
