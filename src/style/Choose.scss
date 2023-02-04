@@ -6,7 +6,7 @@
 	top: 80px;
 	background-color: rgb(70, 70, 70);
 	width: 80vw;
-	height: 80vh;
+	height: auto;
 	border: 2px beige solid;
 	border-radius: 50px;
 	margin-top: 10px;
@@ -20,6 +20,10 @@
 		color: beige;
 		margin-top: 30px;
 		cursor: pointer;
+	}
+
+	.piece-button:last-child {
+		margin-bottom: 30px;
 	}
 
 	.piece-button:hover {
