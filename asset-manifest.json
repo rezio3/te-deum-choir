@@ -1,31 +1,33 @@
 {
   "files": {
-    "main.css": "/rezio3.github.io/te-deum-choir/static/css/main.a7930398.css",
-    "main.js": "/rezio3.github.io/te-deum-choir/static/js/main.a5d0ef9a.js",
+    "main.css": "/rezio3.github.io/te-deum-choir/static/css/main.e8f169a6.css",
+    "main.js": "/rezio3.github.io/te-deum-choir/static/js/main.5e3d2fab.js",
     "static/media/alt-tenor-bas.mp3": "/rezio3.github.io/te-deum-choir/static/media/alt-tenor-bas.d7f4503caf955d271da9.mp3",
-    "static/media/all.mp3": "/rezio3.github.io/te-deum-choir/static/media/all.39c1d76008f8fa607a4b.mp3",
+    "static/media/all.mp3": "/rezio3.github.io/te-deum-choir/static/media/all.192f160659a782b5f353.mp3",
     "static/media/alt-bas.mp3": "/rezio3.github.io/te-deum-choir/static/media/alt-bas.448edd75a284690e25ad.mp3",
     "static/media/sopran-alt-bas.mp3": "/rezio3.github.io/te-deum-choir/static/media/sopran-alt-bas.c7bfe573acca33294751.mp3",
     "static/media/sopran-tenor-bas.mp3": "/rezio3.github.io/te-deum-choir/static/media/sopran-tenor-bas.13a485b851fff546e1d8.mp3",
     "static/media/tenor-bas.mp3": "/rezio3.github.io/te-deum-choir/static/media/tenor-bas.403e2dd92e0775fb7bd7.mp3",
     "static/media/bas.mp3": "/rezio3.github.io/te-deum-choir/static/media/bas.f5089570d9ea146c6c35.mp3",
     "static/media/sopran-bas.mp3": "/rezio3.github.io/te-deum-choir/static/media/sopran-bas.1229e7f88f536f6303cb.mp3",
-    "static/media/alt-tenor.mp3": "/rezio3.github.io/te-deum-choir/static/media/alt-tenor.a9624684b387b61b02df.mp3",
+    "static/media/alt-tenor.mp3": "/rezio3.github.io/te-deum-choir/static/media/alt-tenor.afea5b67a797d2657f48.mp3",
     "static/media/sopran-alt-tenor.mp3": "/rezio3.github.io/te-deum-choir/static/media/sopran-alt-tenor.af72ce1e00424c121dbf.mp3",
-    "static/media/sopran-tenor.mp3": "/rezio3.github.io/te-deum-choir/static/media/sopran-tenor.60fdef78c154af683072.mp3",
-    "static/media/tenor.mp3": "/rezio3.github.io/te-deum-choir/static/media/tenor.abc1a7ca012900dbebcc.mp3",
-    "static/media/sopran-alt.mp3": "/rezio3.github.io/te-deum-choir/static/media/sopran-alt.35e0d9b542928b0193d2.mp3",
-    "static/media/alt.mp3": "/rezio3.github.io/te-deum-choir/static/media/alt.8daec6547a121ccef9df.mp3",
-    "static/media/sopran.mp3": "/rezio3.github.io/te-deum-choir/static/media/sopran.716d6f66dc7bf3ce04f2.mp3",
+    "static/media/sopran-tenor.mp3": "/rezio3.github.io/te-deum-choir/static/media/sopran-tenor.258a4e4ab2019c1877a5.mp3",
+    "static/media/tenor.mp3": "/rezio3.github.io/te-deum-choir/static/media/tenor.80f1bed0d704bb196722.mp3",
+    "static/media/sopran-alt.mp3": "/rezio3.github.io/te-deum-choir/static/media/sopran-alt.01d4f6c8251a9ec9646c.mp3",
+    "static/media/alt.mp3": "/rezio3.github.io/te-deum-choir/static/media/alt.ccf3bfd4b7e2f899f30d.mp3",
+    "static/media/sopran.mp3": "/rezio3.github.io/te-deum-choir/static/media/sopran.8ef7dda90a03442ae97a.mp3",
     "static/media/dzieki-Ci-Panie.jpg": "/rezio3.github.io/te-deum-choir/static/media/dzieki-Ci-Panie.0ec385c8b7fd5e7b17dd.jpg",
     "static/media/krzyzu_swiety_nade_wszystko-1.jpg": "/rezio3.github.io/te-deum-choir/static/media/krzyzu_swiety_nade_wszystko-1.8d9aa41452eb33b32e72.jpg",
     "static/media/witaj-pokarmie.jpg": "/rezio3.github.io/te-deum-choir/static/media/witaj-pokarmie.56d21aacd8ec19e6871c.jpg",
+    "static/media/radujmy-sie2.jpg": "/rezio3.github.io/te-deum-choir/static/media/radujmy-sie2.655ec99406e3f51ba84a.jpg",
+    "static/media/radujmy-sie1.jpg": "/rezio3.github.io/te-deum-choir/static/media/radujmy-sie1.19a8c8292b513dbdc45c.jpg",
     "index.html": "/rezio3.github.io/te-deum-choir/index.html",
-    "main.a7930398.css.map": "/rezio3.github.io/te-deum-choir/static/css/main.a7930398.css.map",
-    "main.a5d0ef9a.js.map": "/rezio3.github.io/te-deum-choir/static/js/main.a5d0ef9a.js.map"
+    "main.e8f169a6.css.map": "/rezio3.github.io/te-deum-choir/static/css/main.e8f169a6.css.map",
+    "main.5e3d2fab.js.map": "/rezio3.github.io/te-deum-choir/static/js/main.5e3d2fab.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7930398.css",
-    "static/js/main.a5d0ef9a.js"
+    "static/css/main.e8f169a6.css",
+    "static/js/main.5e3d2fab.js"
   ]
 }
