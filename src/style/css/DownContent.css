@@ -59,6 +59,9 @@
 .down-content .notes {
   width: 95vw;
 }
+.down-content .rs {
+  width: 70%;
+}
 .down-content .audio-container {
   display: flex;
   flex-direction: column;

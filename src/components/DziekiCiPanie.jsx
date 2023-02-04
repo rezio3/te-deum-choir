@@ -43,7 +43,6 @@ const DziekiCiPanie = (props) => {
 	};
 
 	const playAudio = () => {
-		console.log(dCPSopran);
 		setVoice({
 			...voice,
 			play: false,
@@ -106,12 +105,11 @@ const DziekiCiPanie = (props) => {
 			</div>
 
 			<div className="notes-container">
-				{/* <img src={img1} className="notes" alt="Dzięki Ci Panie - nuty" /> */}
+				<img src={img1} className="notes" alt="Dzięki Ci Panie - nuty" />
 			</div>
 			<div className="audio-container">
-				<audio src={dCPSopran} id="sopran-audio" controls />
-				{/* {sopran && !alt && !tenor && !bas && play ? (
-				
+				{sopran && !alt && !tenor && !bas && play ? (
+					<audio src={dCPSopran} id="sopran-audio" autoPlay />
 				) : null}
 				{alt && !sopran && !tenor && !bas && play ? (
 					<audio src={dCPAlt} id="alt-audio" autoPlay />
@@ -158,7 +156,7 @@ const DziekiCiPanie = (props) => {
 				) : null}
 				{sopran && alt && tenor && bas && play ? (
 					<audio src={dCPAll} id="all-audio" autoPlay />
-				) : null} */}
+				) : null}
 			</div>
 		</div>
 	);

@@ -3,6 +3,7 @@ import "../style/css/MainPage.css";
 import ChoosePieceWindow from "./ChoosePieceWindow";
 import DziekiCiPanie from "./DziekiCiPanie";
 import KrzyzuSwiety from "./KrzyzuSwiety";
+import RadujmySie from "./RadujmySie";
 import WitajPokarmie from "./WitajPokarmie";
 
 const MainPage = () => {
@@ -37,6 +38,9 @@ const MainPage = () => {
 			) : null}
 			{state.pieceNumber === "3" ? (
 				<WitajPokarmie state={state} setState={setState} />
+			) : null}
+			{state.pieceNumber === "4" ? (
+				<RadujmySie state={state} setState={setState} />
 			) : null}
 		</div>
 	);
