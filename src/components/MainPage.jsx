@@ -16,7 +16,6 @@ const MainPage = () => {
 		setState({
 			...state,
 			chooseWindowOn: true,
-			q,
 		});
 	};
 	return (

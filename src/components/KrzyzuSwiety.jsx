@@ -23,7 +23,7 @@ const KrzyzuSwiety = (props) => {
 		alt: false,
 		tenor: false,
 		bas: false,
-		play: false,
+		// play: false,
 	});
 
 	const { sopran, alt, tenor, bas, play } = voice;
@@ -105,7 +105,7 @@ const KrzyzuSwiety = (props) => {
 			</div>
 
 			<div className="notes-container">
-				<img src={img2} className="notes" />
+				<img src={img2} className="notes" alt="Krzyżu Święty - nuty" />
 			</div>
 			<div className="audio-container">
 				{sopran && !alt && !tenor && !bas && play ? (

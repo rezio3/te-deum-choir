@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import img3 from "../img/witaj-pokarmie.jpg";
 import "../style/css/DownContent.css";
 import wpSopran from "../audio/witaj-pokarmie/sopran.mp3";
@@ -17,13 +17,13 @@ import wpSopranAltBass from "../audio/witaj-pokarmie/sopran-alt-bas.mp3";
 import wpAltTenorBass from "../audio/witaj-pokarmie/alt-tenor-bas.mp3";
 import wpAll from "../audio/witaj-pokarmie/all.mp3";
 
-const WitajPokarmie = () => {
+const WitajPokarmie = (props) => {
 	const [voice, setVoice] = useState({
 		sopran: false,
 		alt: false,
 		tenor: false,
 		bas: false,
-		play: false,
+		// play: false,
 	});
 
 	const { sopran, alt, tenor, bas, play } = voice;
@@ -105,7 +105,7 @@ const WitajPokarmie = () => {
 			</div>
 
 			<div className="notes-container">
-				<img src={img3} className="notes" />
+				<img src={img3} className="notes" alt="Witaj Pokarmie - nuty" />
 			</div>
 			<div className="audio-container">
 				{sopran && !alt && !tenor && !bas && play ? (

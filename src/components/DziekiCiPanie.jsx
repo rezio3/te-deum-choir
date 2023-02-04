@@ -1,21 +1,21 @@
 import React, { useState } from "react";
 import "../style/css/DownContent.css";
 import img1 from "../img/dzieki-Ci-Panie.jpg";
-import dCPSopran from "../audio/dzieki-Ci-Panie-refren/sopran.mp3";
-import dCPAlt from "../audio/dzieki-Ci-Panie-refren/alt.mp3";
-import dCPTenor from "../audio/dzieki-Ci-Panie-refren/tenor.mp3";
-import dCPBas from "../audio/dzieki-Ci-Panie-refren/bas.mp3";
-import dCPSopranAlt from "../audio/dzieki-Ci-Panie-refren/sopran-alt.mp3";
-import dCPSopranTenor from "../audio/dzieki-Ci-Panie-refren/sopran-tenor.mp3";
-import dCPSopranBass from "../audio/dzieki-Ci-Panie-refren/sopran-bas.mp3";
-import dCPAltTenor from "../audio/dzieki-Ci-Panie-refren/alt-tenor.mp3";
-import dCPAltBass from "../audio/dzieki-Ci-Panie-refren/alt-bas.mp3";
-import dCPTenorBass from "../audio/dzieki-Ci-Panie-refren/tenor-bas.mp3";
-import dCPSopranAltTenor from "../audio/dzieki-Ci-Panie-refren/sopran-alt-tenor.mp3";
-import dCPSopranTenorBass from "../audio/dzieki-Ci-Panie-refren/sopran-tenor-bas.mp3";
-import dCPSopranAltBass from "../audio/dzieki-Ci-Panie-refren/sopran-alt-bas.mp3";
-import dCPAltTenorBass from "../audio/dzieki-Ci-Panie-refren/alt-tenor-bas.mp3";
-import dCPAll from "../audio/dzieki-Ci-Panie-refren/all.mp3";
+import dCPSopran from "../audio/dzieki-Ci-Panie/sopran.mp3";
+import dCPAlt from "../audio/dzieki-Ci-Panie/alt.mp3";
+import dCPTenor from "../audio/dzieki-Ci-Panie/tenor.mp3";
+import dCPBas from "../audio/dzieki-Ci-Panie/bas.mp3";
+import dCPSopranAlt from "../audio/dzieki-Ci-Panie/sopran-alt.mp3";
+import dCPSopranTenor from "../audio/dzieki-Ci-Panie/sopran-tenor.mp3";
+import dCPSopranBass from "../audio/dzieki-Ci-Panie/sopran-bas.mp3";
+import dCPAltTenor from "../audio/dzieki-Ci-Panie/alt-tenor.mp3";
+import dCPAltBass from "../audio/dzieki-Ci-Panie/alt-bas.mp3";
+import dCPTenorBass from "../audio/dzieki-Ci-Panie/tenor-bas.mp3";
+import dCPSopranAltTenor from "../audio/dzieki-Ci-Panie/sopran-alt-tenor.mp3";
+import dCPSopranTenorBass from "../audio/dzieki-Ci-Panie/sopran-tenor-bas.mp3";
+import dCPSopranAltBass from "../audio/dzieki-Ci-Panie/sopran-alt-bas.mp3";
+import dCPAltTenorBass from "../audio/dzieki-Ci-Panie/alt-tenor-bas.mp3";
+import dCPAll from "../audio/dzieki-Ci-Panie/all.mp3";
 
 const DziekiCiPanie = (props) => {
 	const [voice, setVoice] = useState({
@@ -23,7 +23,7 @@ const DziekiCiPanie = (props) => {
 		alt: false,
 		tenor: false,
 		bas: false,
-		play: false,
+		// play: false,
 	});
 
 	const { sopran, alt, tenor, bas, play } = voice;
@@ -43,6 +43,7 @@ const DziekiCiPanie = (props) => {
 	};
 
 	const playAudio = () => {
+		console.log(dCPSopran);
 		setVoice({
 			...voice,
 			play: false,
@@ -105,11 +106,12 @@ const DziekiCiPanie = (props) => {
 			</div>
 
 			<div className="notes-container">
-				<img src={img1} className="notes" />
+				{/* <img src={img1} className="notes" alt="Dzięki Ci Panie - nuty" /> */}
 			</div>
 			<div className="audio-container">
-				{sopran && !alt && !tenor && !bas && play ? (
-					<audio src={dCPSopran} id="sopran-audio" autoPlay />
+				<audio src={dCPSopran} id="sopran-audio" controls />
+				{/* {sopran && !alt && !tenor && !bas && play ? (
+				
 				) : null}
 				{alt && !sopran && !tenor && !bas && play ? (
 					<audio src={dCPAlt} id="alt-audio" autoPlay />
@@ -156,7 +158,7 @@ const DziekiCiPanie = (props) => {
 				) : null}
 				{sopran && alt && tenor && bas && play ? (
 					<audio src={dCPAll} id="all-audio" autoPlay />
-				) : null}
+				) : null} */}
 			</div>
 		</div>
 	);
