@@ -99,8 +99,8 @@ const RadujmySie = (props) => {
 			</div>
 
 			<div className="notes-container">
-				<img src={img4r1} className="notes rs" alt="radujmy-sie - nuty1" />
-				<img src={img4r2} className="notes rs" alt="radujmy-sie - nuty2" />
+				<img src={img4r1} className="rs" alt="radujmy-sie - nuty1" />
+				<img src={img4r2} className="rs" alt="radujmy-sie - nuty2" />
 			</div>
 			<div className="audio-container">
 				{sopran && !alt && !tenor && play ? (

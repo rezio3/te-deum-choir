@@ -60,7 +60,7 @@
   width: 95vw;
 }
 .down-content .rs {
-  width: 70%;
+  width: 95%;
 }
 .down-content .audio-container {
   display: flex;
@@ -76,7 +76,7 @@
 
 @media (min-width: 992px) {
   .down-content .rs {
-    width: 90%;
+    width: 80%;
   }
   .down-content .select-voice-container {
     width: 100%;
