@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/te-deum-choir/static/css/main.70420ba1.css",
-    "main.js": "/te-deum-choir/static/js/main.e2d66bfd.js",
+    "main.css": "/te-deum-choir/static/css/main.588e4639.css",
+    "main.js": "/te-deum-choir/static/js/main.acf8cecc.js",
     "static/media/alt-tenor-bas.mp3": "/te-deum-choir/static/media/alt-tenor-bas.d7f4503caf955d271da9.mp3",
     "static/media/all.mp3": "/te-deum-choir/static/media/all.192f160659a782b5f353.mp3",
     "static/media/alt-bas.mp3": "/te-deum-choir/static/media/alt-bas.448edd75a284690e25ad.mp3",
@@ -23,11 +23,11 @@
     "static/media/radujmy-sie2.jpg": "/te-deum-choir/static/media/radujmy-sie2.655ec99406e3f51ba84a.jpg",
     "static/media/radujmy-sie1.jpg": "/te-deum-choir/static/media/radujmy-sie1.19a8c8292b513dbdc45c.jpg",
     "index.html": "/te-deum-choir/index.html",
-    "main.70420ba1.css.map": "/te-deum-choir/static/css/main.70420ba1.css.map",
-    "main.e2d66bfd.js.map": "/te-deum-choir/static/js/main.e2d66bfd.js.map"
+    "main.588e4639.css.map": "/te-deum-choir/static/css/main.588e4639.css.map",
+    "main.acf8cecc.js.map": "/te-deum-choir/static/js/main.acf8cecc.js.map"
   },
   "entrypoints": [
-    "static/css/main.70420ba1.css",
-    "static/js/main.e2d66bfd.js"
+    "static/css/main.588e4639.css",
+    "static/js/main.acf8cecc.js"
   ]
 }
