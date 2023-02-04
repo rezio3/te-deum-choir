@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import "../style/css/MainPage.css";
 import ChoosePieceWindow from "./ChoosePieceWindow";
-import DownContent1 from "./DownContent1";
-import DownContent2 from "./DownContent2";
+import DziekiCiPanie from "./DziekiCiPanie";
+import KrzyzuSwiety from "./KrzyzuSwiety";
+import WitajPokarmie from "./WitajPokarmie";
 
 const MainPage = () => {
 	const [state, setState] = useState({
@@ -15,6 +16,7 @@ const MainPage = () => {
 		setState({
 			...state,
 			chooseWindowOn: true,
+			q,
 		});
 	};
 	return (
@@ -29,10 +31,13 @@ const MainPage = () => {
 				<ChoosePieceWindow state={state} setState={setState} />
 			) : null}
 			{state.pieceNumber === "1" ? (
-				<DownContent1 state={state} setState={setState} />
+				<DziekiCiPanie state={state} setState={setState} />
 			) : null}
 			{state.pieceNumber === "2" ? (
-				<DownContent2 state={state} setState={setState} />
+				<KrzyzuSwiety state={state} setState={setState} />
+			) : null}
+			{state.pieceNumber === "3" ? (
+				<WitajPokarmie state={state} setState={setState} />
 			) : null}
 		</div>
 	);

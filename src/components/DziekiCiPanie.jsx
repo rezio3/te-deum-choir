@@ -17,12 +17,13 @@ import dCPSopranAltBass from "../audio/dzieki-Ci-Panie-refren/sopran-alt-bas.mp3
 import dCPAltTenorBass from "../audio/dzieki-Ci-Panie-refren/alt-tenor-bas.mp3";
 import dCPAll from "../audio/dzieki-Ci-Panie-refren/all.mp3";
 
-const DownContent1 = (props) => {
+const DziekiCiPanie = (props) => {
 	const [voice, setVoice] = useState({
 		sopran: false,
 		alt: false,
 		tenor: false,
 		bas: false,
+		play: false,
 	});
 
 	const { sopran, alt, tenor, bas, play } = voice;
@@ -161,4 +162,4 @@ const DownContent1 = (props) => {
 	);
 };
 
-export default DownContent1;
+export default DziekiCiPanie;

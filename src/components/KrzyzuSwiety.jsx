@@ -17,12 +17,13 @@ import ksAltTenorBass from "../audio/krzyzu-swiety/alt-tenor-bas.mp3";
 import ksAll from "../audio/krzyzu-swiety/all.mp3";
 import img2 from "../img/krzyzu_swiety_nade_wszystko-1.jpg";
 
-const DownContent2 = (props) => {
+const KrzyzuSwiety = (props) => {
 	const [voice, setVoice] = useState({
 		sopran: false,
 		alt: false,
 		tenor: false,
 		bas: false,
+		play: false,
 	});
 
 	const { sopran, alt, tenor, bas, play } = voice;
@@ -157,4 +158,4 @@ const DownContent2 = (props) => {
 	);
 };
 
-export default DownContent2;
+export default KrzyzuSwiety;

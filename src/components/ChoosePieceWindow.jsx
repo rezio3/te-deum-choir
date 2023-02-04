@@ -28,6 +28,14 @@ const ChoosePieceWindow = (props) => {
 			>
 				Krzyżu Święty
 			</button>
+			<button
+				className="witaj-pokarmie piece-button"
+				title="Witaj Pokarmie"
+				name="3"
+				onClick={handlePieceBtn}
+			>
+				Witaj Pokarmie
+			</button>
 		</div>
 	);
 };
