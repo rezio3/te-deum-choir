@@ -1,8 +1,13 @@
-# Getting Started with Create React App
+# Te Deum - Practice App
+
+this app was made for Te Deum Polish choir for practice purposes.
+https://rezio3.github.io/te-deum-choir/
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
