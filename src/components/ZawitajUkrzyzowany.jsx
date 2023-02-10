@@ -76,49 +76,49 @@ const ZawitajUkrzyzowany = (props) => {
 			</div>
 			<div className="audio-container">
 				{sopran && !alt && !tenor && !bas ? (
-					<audio src={wpSopran} id="sopran-audio" controls />
+					<audio src={zuSopran} id="sopran-audio" controls />
 				) : null}
 				{alt && !sopran && !tenor && !bas ? (
-					<audio src={wpAlt} id="alt-audio" controls />
+					<audio src={zuAlt} id="alt-audio" controls />
 				) : null}
 				{tenor && !sopran && !alt && !bas ? (
-					<audio src={wpTenor} id="tenor-audio" controls />
+					<audio src={zuTenor} id="tenor-audio" controls />
 				) : null}
 				{bas && !sopran && !alt && !tenor ? (
-					<audio src={wpBas} id="bas-audio" controls />
+					<audio src={zuBas} id="bas-audio" controls />
 				) : null}
 				{sopran && alt && !tenor && !bas ? (
-					<audio src={wpSopranAlt} id="sopran-alt-audio" controls />
+					<audio src={zuSopranAlt} id="sopran-alt-audio" controls />
 				) : null}
 				{sopran && tenor && !alt && !bas ? (
-					<audio src={wpSopranTenor} id="sopran-tenor-audio" controls />
+					<audio src={zuSopranTenor} id="sopran-tenor-audio" controls />
 				) : null}
 				{sopran && bas && !alt && !tenor ? (
-					<audio src={wpSopranBass} id="sopran-bas-audio" controls />
+					<audio src={zuSopranBass} id="sopran-bas-audio" controls />
 				) : null}
 				{alt && tenor && !sopran && !bas ? (
-					<audio src={wpAltTenor} id="alt-tenor-audio" controls />
+					<audio src={zuAltTenor} id="alt-tenor-audio" controls />
 				) : null}
 				{alt && bas && !sopran && !tenor ? (
-					<audio src={wpAltBass} id="alt-bas-audio" controls />
+					<audio src={zuAltBass} id="alt-bas-audio" controls />
 				) : null}
 				{tenor && bas && !sopran && !alt ? (
-					<audio src={wpTenorBass} id="tenor-bas-audio" controls />
+					<audio src={zuTenorBass} id="tenor-bas-audio" controls />
 				) : null}
 				{sopran && alt && tenor && !bas ? (
-					<audio src={wpSopranAltTenor} id="sopran-alt-tenor-audio" controls />
+					<audio src={zuSopranAltTenor} id="sopran-alt-tenor-audio" controls />
 				) : null}
 				{sopran && tenor && bas && !alt ? (
-					<audio src={wpSopranTenorBass} id="sopran-tenor-bas-audio" controls />
+					<audio src={zuSopranTenorBass} id="sopran-tenor-bas-audio" controls />
 				) : null}
 				{sopran && alt && bas && !tenor ? (
-					<audio src={wpSopranAltBass} id="sopran-alt-bas-audio" controls />
+					<audio src={zuSopranAltBass} id="sopran-alt-bas-audio" controls />
 				) : null}
 				{alt && tenor && bas && !sopran ? (
-					<audio src={wpAltTenorBass} id="alt-tenor-bas-audio" controls />
+					<audio src={zuAltTenorBass} id="alt-tenor-bas-audio" controls />
 				) : null}
 				{sopran && alt && tenor && bas ? (
-					<audio src={wpAll} id="all-audio" controls />
+					<audio src={zuAll} id="all-audio" controls />
 				) : null}
 			</div>
 			<div className="notes-container">
