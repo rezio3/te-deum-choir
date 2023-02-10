@@ -1,4 +1,21 @@
 import React from "react";
+import "../style/css/DownContent.css";
+import ksSopran from "../audio/krzyzu-swiety/sopran.mp3";
+import ksAlt from "../audio/krzyzu-swiety/alt.mp3";
+import ksTenor from "../audio/krzyzu-swiety/tenor.mp3";
+import ksBas from "../audio/krzyzu-swiety/bas.mp3";
+import ksSopranAlt from "../audio/krzyzu-swiety/sopran-alt.mp3";
+import ksSopranTenor from "../audio/krzyzu-swiety/sopran-tenor.mp3";
+import ksSopranBass from "../audio/krzyzu-swiety/sopran-bas.mp3";
+import ksAltTenor from "../audio/krzyzu-swiety/alt-tenor.mp3";
+import ksAltBass from "../audio/krzyzu-swiety/alt-bas.mp3";
+import ksTenorBass from "../audio/krzyzu-swiety/tenor-bas.mp3";
+import ksSopranAltTenor from "../audio/krzyzu-swiety/sopran-alt-tenor.mp3";
+import ksSopranTenorBass from "../audio/krzyzu-swiety/sopran-tenor-bas.mp3";
+import ksSopranAltBass from "../audio/krzyzu-swiety/sopran-alt-bas.mp3";
+import ksAltTenorBass from "../audio/krzyzu-swiety/alt-tenor-bas.mp3";
+import ksAll from "../audio/krzyzu-swiety/all.mp3";
+import img2 from "../img/krzyzu_swiety_nade_wszystko-1.jpg";
 
 const SwietoscKrzyza = () => {
 	const [voice, setVoice] = useState({
