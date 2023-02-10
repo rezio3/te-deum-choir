@@ -123,7 +123,7 @@ const SwietoscKrzyza = () => {
 				) : null}
 			</div>
 			<div className="notes-container">
-				<img src={img2} className="notes" alt="Krzyżu Święty - nuty" />
+				<img src={img5} className="notes" alt="Krzyżu Święty - nuty" />
 			</div>
 		</div>
 	);
