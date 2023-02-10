@@ -17,7 +17,7 @@ import skAltTenorBass from "../audio/swietosc-krzyza/alt-tenor-bas.mp3";
 import skAll from "../audio/swietosc-krzyza/all.mp3";
 import img5 from "../img/swietosc-krzyza.jpg";
 
-const SwietoscKrzyza = () => {
+const SwietoscKrzyza = (props) => {
 	const [voice, setVoice] = useState({
 		sopran: false,
 		alt: false,
