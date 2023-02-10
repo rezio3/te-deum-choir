@@ -122,7 +122,7 @@ const ZawitajUkrzyzowany = (props) => {
 				) : null}
 			</div>
 			<div className="notes-container">
-				<img src={img3} className="notes" alt="Witaj Pokarmie - nuty" />
+				<img src={img6} className="notes" alt="Witaj Pokarmie - nuty" />
 			</div>
 		</div>
 	);
