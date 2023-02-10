@@ -44,6 +44,14 @@ const ChoosePieceWindow = (props) => {
 			>
 				Radujmy się
 			</button>
+			<button
+				className="swietosc-krzyza piece-button"
+				title="Świętość Krzyża"
+				name="5"
+				onClick={handlePieceBtn}
+			>
+				Świętość Krzyża
+			</button>
 		</div>
 	);
 };
