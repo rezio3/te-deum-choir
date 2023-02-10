@@ -6,6 +6,7 @@ import KrzyzuSwiety from "./KrzyzuSwiety";
 import RadujmySie from "./RadujmySie";
 import SwietoscKrzyza from "./SwietoscKrzyza";
 import WitajPokarmie from "./WitajPokarmie";
+import ZawitajUkrzyzowany from "./ZawitajUkrzyzowany";
 
 const MainPage = () => {
 	const [state, setState] = useState({
@@ -45,6 +46,9 @@ const MainPage = () => {
 			) : null}
 			{state.pieceNumber === "5" ? (
 				<SwietoscKrzyza state={state} setState={setState} />
+			) : null}
+			{state.pieceNumber === "6" ? (
+				<ZawitajUkrzyzowany state={state} setState={setState} />
 			) : null}
 		</div>
 	);
