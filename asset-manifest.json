@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/te-deum-choir/static/css/main.5856a5f5.css",
-    "main.js": "/te-deum-choir/static/js/main.6b98132a.js",
+    "main.js": "/te-deum-choir/static/js/main.db6c95d1.js",
     "static/media/all.mp3": "/te-deum-choir/static/media/all.192f160659a782b5f353.mp3",
-    "static/media/alt-bas.mp3": "/te-deum-choir/static/media/alt-bas.448edd75a284690e25ad.mp3",
     "static/media/alt-tenor-bas.mp3": "/te-deum-choir/static/media/alt-tenor-bas.d7f4503caf955d271da9.mp3",
+    "static/media/alt-bas.mp3": "/te-deum-choir/static/media/alt-bas.448edd75a284690e25ad.mp3",
     "static/media/alt-tenor.mp3": "/te-deum-choir/static/media/alt-tenor.afea5b67a797d2657f48.mp3",
-    "static/media/alt.mp3": "/te-deum-choir/static/media/alt.ccf3bfd4b7e2f899f30d.mp3",
-    "static/media/bas.mp3": "/te-deum-choir/static/media/bas.f5089570d9ea146c6c35.mp3",
     "static/media/sopran-alt-bas.mp3": "/te-deum-choir/static/media/sopran-alt-bas.c7bfe573acca33294751.mp3",
     "static/media/sopran-alt-tenor.mp3": "/te-deum-choir/static/media/sopran-alt-tenor.af72ce1e00424c121dbf.mp3",
-    "static/media/sopran-alt.mp3": "/te-deum-choir/static/media/sopran-alt.01d4f6c8251a9ec9646c.mp3",
-    "static/media/sopran-bas.mp3": "/te-deum-choir/static/media/sopran-bas.1229e7f88f536f6303cb.mp3",
-    "static/media/sopran-tenor-bas.mp3": "/te-deum-choir/static/media/sopran-tenor-bas.13a485b851fff546e1d8.mp3",
-    "static/media/sopran-tenor.mp3": "/te-deum-choir/static/media/sopran-tenor.258a4e4ab2019c1877a5.mp3",
-    "static/media/sopran.mp3": "/te-deum-choir/static/media/sopran.8ef7dda90a03442ae97a.mp3",
     "static/media/tenor-bas.mp3": "/te-deum-choir/static/media/tenor-bas.403e2dd92e0775fb7bd7.mp3",
+    "static/media/sopran-alt.mp3": "/te-deum-choir/static/media/sopran-alt.01d4f6c8251a9ec9646c.mp3",
+    "static/media/sopran-tenor-bas.mp3": "/te-deum-choir/static/media/sopran-tenor-bas.13a485b851fff546e1d8.mp3",
     "static/media/tenor.mp3": "/te-deum-choir/static/media/tenor.80f1bed0d704bb196722.mp3",
+    "static/media/alt.mp3": "/te-deum-choir/static/media/alt.ccf3bfd4b7e2f899f30d.mp3",
+    "static/media/sopran-bas.mp3": "/te-deum-choir/static/media/sopran-bas.1229e7f88f536f6303cb.mp3",
+    "static/media/sopran-tenor.mp3": "/te-deum-choir/static/media/sopran-tenor.258a4e4ab2019c1877a5.mp3",
+    "static/media/bas.mp3": "/te-deum-choir/static/media/bas.f5089570d9ea146c6c35.mp3",
+    "static/media/sopran.mp3": "/te-deum-choir/static/media/sopran.8ef7dda90a03442ae97a.mp3",
     "static/media/swietosc-krzyza.jpg": "/te-deum-choir/static/media/swietosc-krzyza.e48857f1b3f188232b0b.jpg",
+    "static/media/zawitaj-ukrzyzowany.jpg": "/te-deum-choir/static/media/zawitaj-ukrzyzowany.b88146138b2ff2cc3de8.jpg",
     "static/media/dzieki-Ci-Panie.jpg": "/te-deum-choir/static/media/dzieki-Ci-Panie.0ec385c8b7fd5e7b17dd.jpg",
     "static/media/krzyzu_swiety_nade_wszystko-1.jpg": "/te-deum-choir/static/media/krzyzu_swiety_nade_wszystko-1.8d9aa41452eb33b32e72.jpg",
     "static/media/witaj-pokarmie.jpg": "/te-deum-choir/static/media/witaj-pokarmie.56d21aacd8ec19e6871c.jpg",
@@ -25,10 +26,10 @@
     "static/media/radujmy-sie1.jpg": "/te-deum-choir/static/media/radujmy-sie1.19a8c8292b513dbdc45c.jpg",
     "index.html": "/te-deum-choir/index.html",
     "main.5856a5f5.css.map": "/te-deum-choir/static/css/main.5856a5f5.css.map",
-    "main.6b98132a.js.map": "/te-deum-choir/static/js/main.6b98132a.js.map"
+    "main.db6c95d1.js.map": "/te-deum-choir/static/js/main.db6c95d1.js.map"
   },
   "entrypoints": [
     "static/css/main.5856a5f5.css",
-    "static/js/main.6b98132a.js"
+    "static/js/main.db6c95d1.js"
   ]
 }
