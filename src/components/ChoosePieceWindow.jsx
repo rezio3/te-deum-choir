@@ -52,6 +52,14 @@ const ChoosePieceWindow = (props) => {
 			>
 				Świętość Krzyża
 			</button>
+			<button
+				className="zawitaj-ukrzyzowany piece-button"
+				title="Zawitaj Ukrzyżowany"
+				name="6"
+				onClick={handlePieceBtn}
+			>
+				Zawitaj Ukrzyżowany
+			</button>
 		</div>
 	);
 };
