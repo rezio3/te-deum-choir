@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "../style/css/DownContent.css";
 import ksSopran from "../audio/krzyzu-swiety/sopran.mp3";
 import ksAlt from "../audio/krzyzu-swiety/alt.mp3";
