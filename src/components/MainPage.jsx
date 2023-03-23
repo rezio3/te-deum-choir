@@ -7,6 +7,7 @@ import RadujmySie from "./RadujmySie";
 import SwietoscKrzyza from "./SwietoscKrzyza";
 import WitajPokarmie from "./WitajPokarmie";
 import ZawitajUkrzyzowany from "./ZawitajUkrzyzowany";
+import Alleluja from "./Alleluja";
 
 const MainPage = () => {
 	const [state, setState] = useState({
