@@ -123,7 +123,7 @@ const Alleluja = (props) => {
 				) : null}
 			</div>
 			<div className="notes-container">
-				<img src={img2} className="notes" alt="Krzyżu Święty - nuty" />
+				<img src={img7} className="notes" alt="Alleluja Jamneńskie - nuty" />
 			</div>
 		</div>
 	);
