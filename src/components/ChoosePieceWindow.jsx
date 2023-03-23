@@ -60,6 +60,14 @@ const ChoosePieceWindow = (props) => {
 			>
 				Zawitaj Ukrzyżowany
 			</button>
+			<button
+				className="alleluja piece-button"
+				title="Alleluja Jamneńskie"
+				name="7"
+				onClick={handlePieceBtn}
+			>
+				Alleluja Jamneńskie
+			</button>
 		</div>
 	);
 };
