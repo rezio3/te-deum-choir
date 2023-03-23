@@ -50,6 +50,9 @@ const MainPage = () => {
 			{state.pieceNumber === "6" ? (
 				<ZawitajUkrzyzowany state={state} setState={setState} />
 			) : null}
+			{state.pieceNumber === "7" ? (
+				<Alleluja state={state} setState={setState} />
+			) : null}
 		</div>
 	);
 };
