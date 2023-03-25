@@ -15,7 +15,7 @@ import aSopranTenorBass from "../audio/alleluja/sopran-tenor-bas.mp3";
 import aSopranAltBass from "../audio/alleluja/sopran-alt-bas.mp3";
 import aAltTenorBass from "../audio/alleluja/alt-tenor-bas.mp3";
 import aAll from "../audio/alleluja/all.mp3";
-import img7 from "../img/krzyzu_swiety_nade_wszystko-1.jpg";
+import img7 from "../img/alleluja.jpg";
 
 const Alleluja = (props) => {
 	const [voice, setVoice] = useState({
