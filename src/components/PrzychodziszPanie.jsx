@@ -17,7 +17,7 @@ import pPAltTenorBass from "../audio/przychodzisz-panie/alt-tenor-bas.mp3";
 import pPAll from "../audio/przychodzisz-panie/all.mp3";
 import img2 from "../img/krzyzu_swiety_nade_wszystko-1.jpg";
 
-const KrzyzuSwiety = (props) => {
+const PrzychodziszPanie = (props) => {
 	const [voice, setVoice] = useState({
 		sopran: false,
 		alt: false,
@@ -77,56 +77,56 @@ const KrzyzuSwiety = (props) => {
 
 			<div className="audio-container">
 				{sopran && !alt && !tenor && !bas ? (
-					<audio src={ksSopran} id="sopran-audio" controls />
+					<audio src={pPSopran} id="sopran-audio" controls />
 				) : null}
 				{alt && !sopran && !tenor && !bas ? (
-					<audio src={ksAlt} id="alt-audio" controls />
+					<audio src={pPAlt} id="alt-audio" controls />
 				) : null}
 				{tenor && !sopran && !alt && !bas ? (
-					<audio src={ksTenor} id="tenor-audio" controls />
+					<audio src={pPTenor} id="tenor-audio" controls />
 				) : null}
 				{bas && !sopran && !alt && !tenor ? (
-					<audio src={ksBas} id="bas-audio" controls />
+					<audio src={pPBas} id="bas-audio" controls />
 				) : null}
 				{sopran && alt && !tenor && !bas ? (
-					<audio src={ksSopranAlt} id="sopran-alt-audio" controls />
+					<audio src={pPSopranAlt} id="sopran-alt-audio" controls />
 				) : null}
 				{sopran && tenor && !alt && !bas ? (
-					<audio src={ksSopranTenor} id="sopran-tenor-audio" controls />
+					<audio src={pPSopranTenor} id="sopran-tenor-audio" controls />
 				) : null}
 				{sopran && bas && !alt && !tenor ? (
-					<audio src={ksSopranBass} id="sopran-bas-audio" controls />
+					<audio src={pPSopranBass} id="sopran-bas-audio" controls />
 				) : null}
 				{alt && tenor && !sopran && !bas ? (
-					<audio src={ksAltTenor} id="alt-tenor-audio" controls />
+					<audio src={pPAltTenor} id="alt-tenor-audio" controls />
 				) : null}
 				{alt && bas && !sopran && !tenor ? (
-					<audio src={ksAltBass} id="alt-bas-audio" controls />
+					<audio src={pPAltBass} id="alt-bas-audio" controls />
 				) : null}
 				{tenor && bas && !sopran && !alt ? (
-					<audio src={ksTenorBass} id="tenor-bas-audio" controls />
+					<audio src={pPTenorBass} id="tenor-bas-audio" controls />
 				) : null}
 				{sopran && alt && tenor && !bas ? (
-					<audio src={ksSopranAltTenor} id="sopran-alt-tenor-audio" controls />
+					<audio src={pPSopranAltTenor} id="sopran-alt-tenor-audio" controls />
 				) : null}
 				{sopran && tenor && bas && !alt ? (
-					<audio src={ksSopranTenorBass} id="sopran-tenor-bas-audio" controls />
+					<audio src={pPSopranTenorBass} id="sopran-tenor-bas-audio" controls />
 				) : null}
 				{sopran && alt && bas && !tenor ? (
-					<audio src={ksSopranAltBass} id="sopran-alt-bas-audio" controls />
+					<audio src={pPSopranAltBass} id="sopran-alt-bas-audio" controls />
 				) : null}
 				{alt && tenor && bas && !sopran ? (
-					<audio src={ksAltTenorBass} id="alt-tenor-bas-audio" controls />
+					<audio src={pPAltTenorBass} id="alt-tenor-bas-audio" controls />
 				) : null}
 				{sopran && alt && tenor && bas ? (
-					<audio src={ksAll} id="all-audio" controls />
+					<audio src={pPAll} id="all-audio" controls />
 				) : null}
 			</div>
 			<div className="notes-container">
-				<img src={img2} className="notes" alt="Krzyżu Święty - nuty" />
+				<img src={img2} className="notes" alt="Przychodzisz Panie - nuty" />
 			</div>
 		</div>
 	);
 };
 
-export default KrzyzuSwiety;
+export default PrzychodziszPanie;
