@@ -15,7 +15,7 @@ import pPSopranTenorBass from "../audio/przychodzisz-panie/sopran-tenor-bas.mp3"
 import pPSopranAltBass from "../audio/przychodzisz-panie/sopran-alt-bas.mp3";
 import pPAltTenorBass from "../audio/przychodzisz-panie/alt-tenor-bas.mp3";
 import pPAll from "../audio/przychodzisz-panie/all.mp3";
-import img2 from "../img/krzyzu_swiety_nade_wszystko-1.jpg";
+import img2 from "../img/przychodzisz-panie.jpg";
 
 const PrzychodziszPanie = (props) => {
 	const [voice, setVoice] = useState({
