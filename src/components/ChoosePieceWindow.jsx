@@ -68,6 +68,14 @@ const ChoosePieceWindow = (props) => {
 			>
 				Alleluja Jamneńskie
 			</button>
+			<button
+				className="przychodzisz-panie piece-button"
+				title="Przychodzisz Panie"
+				name="7"
+				onClick={handlePieceBtn}
+			>
+				Przychodzisz Panie
+			</button>
 		</div>
 	);
 };
