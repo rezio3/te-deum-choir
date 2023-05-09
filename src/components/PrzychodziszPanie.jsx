@@ -15,9 +15,10 @@ import pPSopranTenorBass from "../audio/przychodzisz-panie/sopran-tenor-bas.mp3"
 import pPSopranAltBass from "../audio/przychodzisz-panie/sopran-alt-bas.mp3";
 import pPAltTenorBass from "../audio/przychodzisz-panie/alt-tenor-bas.mp3";
 import pPAll from "../audio/przychodzisz-panie/all.mp3";
-import img2 from "../img/przychodzisz-panie.jpg";
+import img from "../img/przychodzisz-panie.jpg";
 
 const PrzychodziszPanie = (props) => {
+	console.log("strona");
 	const [voice, setVoice] = useState({
 		sopran: false,
 		alt: false,
@@ -123,7 +124,7 @@ const PrzychodziszPanie = (props) => {
 				) : null}
 			</div>
 			<div className="notes-container">
-				<img src={img2} className="notes" alt="Przychodzisz Panie - nuty" />
+				<img src={img} className="notes" alt="Przychodzisz Panie - nuty" />
 			</div>
 		</div>
 	);

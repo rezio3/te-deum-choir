@@ -71,7 +71,7 @@ const ChoosePieceWindow = (props) => {
 			<button
 				className="przychodzisz-panie piece-button"
 				title="Przychodzisz Panie"
-				name="7"
+				name="8"
 				onClick={handlePieceBtn}
 			>
 				Przychodzisz Panie
