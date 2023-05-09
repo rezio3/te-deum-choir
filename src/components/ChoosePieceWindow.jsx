@@ -84,6 +84,14 @@ const ChoosePieceWindow = (props) => {
 			>
 				Ukaż mi Panie
 			</button>
+			<button
+				className="o-krwi-i-wodo piece-button"
+				title="O krwi i wodo"
+				name="10"
+				onClick={handlePieceBtn}
+			>
+				O krwi i wodo
+			</button>
 		</div>
 	);
 };

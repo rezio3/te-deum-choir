@@ -1,23 +1,23 @@
 import React, { useState } from "react";
 import "../style/css/DownContent.css";
-import umPSopran from "../audio/ukaz-mi-panie/sopran.mp3";
-import umPAlt from "../audio/ukaz-mi-panie/alt.mp3";
-import umPTenor from "../audio/ukaz-mi-panie/tenor.mp3";
-import umPBas from "../audio/ukaz-mi-panie/bas.mp3";
-import umPSopranAlt from "../audio/ukaz-mi-panie/sopran-alt.mp3";
-import umPSopranTenor from "../audio/ukaz-mi-panie/sopran-tenor.mp3";
-import umPSopranBass from "../audio/ukaz-mi-panie/sopran-bas.mp3";
-import umPAltTenor from "../audio/ukaz-mi-panie/alt-tenor.mp3";
-import umPAltBass from "../audio/ukaz-mi-panie/alt-bas.mp3";
-import umPTenorBass from "../audio/ukaz-mi-panie/tenor-bas.mp3";
-import umPSopranAltTenor from "../audio/ukaz-mi-panie/sopran-alt-tenor.mp3";
-import umPSopranTenorBass from "../audio/ukaz-mi-panie/sopran-tenor-bas.mp3";
-import umPSopranAltBass from "../audio/ukaz-mi-panie/sopran-alt-bas.mp3";
-import umPAltTenorBass from "../audio/ukaz-mi-panie/alt-tenor-bas.mp3";
-import umPAll from "../audio/ukaz-mi-panie/all.mp3";
-import img from "../img/ukaz-mi-panie.jpg";
+import okiwSopran from "../audio/o-krwi-i-wodo/sopran.mp3";
+import okiwAlt from "../audio/o-krwi-i-wodo/alt.mp3";
+import okiwTenor from "../audio/o-krwi-i-wodo/tenor.mp3";
+import okiwBas from "../audio/o-krwi-i-wodo/bas.mp3";
+import okiwSopranAlt from "../audio/o-krwi-i-wodo/sopran-alt.mp3";
+import okiwSopranTenor from "../audio/o-krwi-i-wodo/sopran-tenor.mp3";
+import okiwSopranBass from "../audio/o-krwi-i-wodo/sopran-bas.mp3";
+import okiwAltTenor from "../audio/o-krwi-i-wodo/alt-tenor.mp3";
+import okiwAltBass from "../audio/o-krwi-i-wodo/alt-bas.mp3";
+import okiwTenorBass from "../audio/o-krwi-i-wodo/tenor-bas.mp3";
+import okiwSopranAltTenor from "../audio/o-krwi-i-wodo/sopran-alt-tenor.mp3";
+import okiwSopranTenorBass from "../audio/o-krwi-i-wodo/sopran-tenor-bas.mp3";
+import okiwSopranAltBass from "../audio/o-krwi-i-wodo/sopran-alt-bas.mp3";
+import okiwAltTenorBass from "../audio/o-krwi-i-wodo/alt-tenor-bas.mp3";
+import okiwAll from "../audio/o-krwi-i-wodo/all.mp3";
+import img from "../img/o-krwi-i-wodo.jpg";
 
-const UkazMiPanie = (props) => {
+const OKrwiIWodo = (props) => {
 	console.log("strona");
 	const [voice, setVoice] = useState({
 		sopran: false,
@@ -78,60 +78,64 @@ const UkazMiPanie = (props) => {
 
 			<div className="audio-container">
 				{sopran && !alt && !tenor && !bas ? (
-					<audio src={umPSopran} id="sopran-audio" controls />
+					<audio src={okiwSopran} id="sopran-audio" controls />
 				) : null}
 				{alt && !sopran && !tenor && !bas ? (
-					<audio src={umPAlt} id="alt-audio" controls />
+					<audio src={okiwAlt} id="alt-audio" controls />
 				) : null}
 				{tenor && !sopran && !alt && !bas ? (
-					<audio src={umPTenor} id="tenor-audio" controls />
+					<audio src={okiwTenor} id="tenor-audio" controls />
 				) : null}
 				{bas && !sopran && !alt && !tenor ? (
-					<audio src={umPBas} id="bas-audio" controls />
+					<audio src={okiwBas} id="bas-audio" controls />
 				) : null}
 				{sopran && alt && !tenor && !bas ? (
-					<audio src={umPSopranAlt} id="sopran-alt-audio" controls />
+					<audio src={okiwSopranAlt} id="sopran-alt-audio" controls />
 				) : null}
 				{sopran && tenor && !alt && !bas ? (
-					<audio src={umPSopranTenor} id="sopran-tenor-audio" controls />
+					<audio src={okiwSopranTenor} id="sopran-tenor-audio" controls />
 				) : null}
 				{sopran && bas && !alt && !tenor ? (
-					<audio src={umPSopranBass} id="sopran-bas-audio" controls />
+					<audio src={okiwSopranBass} id="sopran-bas-audio" controls />
 				) : null}
 				{alt && tenor && !sopran && !bas ? (
-					<audio src={umPAltTenor} id="alt-tenor-audio" controls />
+					<audio src={okiwAltTenor} id="alt-tenor-audio" controls />
 				) : null}
 				{alt && bas && !sopran && !tenor ? (
-					<audio src={umPAltBass} id="alt-bas-audio" controls />
+					<audio src={okiwAltBass} id="alt-bas-audio" controls />
 				) : null}
 				{tenor && bas && !sopran && !alt ? (
-					<audio src={umPTenorBass} id="tenor-bas-audio" controls />
+					<audio src={okiwTenorBass} id="tenor-bas-audio" controls />
 				) : null}
 				{sopran && alt && tenor && !bas ? (
-					<audio src={umPSopranAltTenor} id="sopran-alt-tenor-audio" controls />
+					<audio
+						src={okiwSopranAltTenor}
+						id="sopran-alt-tenor-audio"
+						controls
+					/>
 				) : null}
 				{sopran && tenor && bas && !alt ? (
 					<audio
-						src={umPSopranTenorBass}
+						src={okiwSopranTenorBass}
 						id="sopran-tenor-bas-audio"
 						controls
 					/>
 				) : null}
 				{sopran && alt && bas && !tenor ? (
-					<audio src={umPSopranAltBass} id="sopran-alt-bas-audio" controls />
+					<audio src={okiwSopranAltBass} id="sopran-alt-bas-audio" controls />
 				) : null}
 				{alt && tenor && bas && !sopran ? (
-					<audio src={umPAltTenorBass} id="alt-tenor-bas-audio" controls />
+					<audio src={okiwAltTenorBass} id="alt-tenor-bas-audio" controls />
 				) : null}
 				{sopran && alt && tenor && bas ? (
-					<audio src={umPAll} id="all-audio" controls />
+					<audio src={okiwAll} id="all-audio" controls />
 				) : null}
 			</div>
 			<div className="notes-container">
-				<img src={img} className="notes" alt="Ukaż mi Panie - nuty" />
+				<img src={img} className="notes" alt="O krwi i wodo - nuty" />
 			</div>
 		</div>
 	);
 };
 
-export default UkazMiPanie;
+export default OKrwiIWodo;
