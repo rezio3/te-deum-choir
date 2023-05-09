@@ -1,0 +1,29 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.main-container .select-piece-container {
+  width: 100%;
+}
+.main-container .select-piece-container .header-title {
+  color: beige;
+  border-bottom: 3px beige solid;
+  padding-bottom: 20px;
+  font-size: 26px;
+}
+.main-container .select-piece-container .choose-piece-btn {
+  background: none;
+  border: 3px solid beige;
+  padding: 15px 30px;
+  font-size: 20px;
+  border-radius: 10px;
+  color: beige;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.main-container .select-piece-container .choose-piece-btn:hover {
+  background-color: rgb(94, 94, 94);
+}

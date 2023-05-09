@@ -1,0 +1,36 @@
+.choose-window {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 80px;
+  background-color: rgb(70, 70, 70);
+  width: 80vw;
+  height: auto;
+  border: 2px beige solid;
+  border-radius: 50px;
+  margin-top: 10px;
+  z-index: 1;
+}
+.choose-window .piece-button {
+  background: none;
+  border: 3px solid beige;
+  padding: 15px 30px;
+  font-size: 20px;
+  border-radius: 10px;
+  color: beige;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.choose-window .piece-button:last-child {
+  margin-bottom: 30px;
+}
+.choose-window .piece-button:hover {
+  background-color: rgb(94, 94, 94);
+}
+
+@media (min-width: 992px) {
+  .choose-window {
+    width: 300px;
+  }
+}
