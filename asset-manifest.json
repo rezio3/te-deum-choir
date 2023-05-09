@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/te-deum-choir/static/css/main.5856a5f5.css",
-    "main.js": "/te-deum-choir/static/js/main.2520c531.js",
+    "main.js": "/te-deum-choir/static/js/main.774be8b4.js",
     "static/media/all.mp3": "/te-deum-choir/static/media/all.192f160659a782b5f353.mp3",
     "static/media/alt-tenor-bas.mp3": "/te-deum-choir/static/media/alt-tenor-bas.d7f4503caf955d271da9.mp3",
     "static/media/sopran-tenor-bas.mp3": "/te-deum-choir/static/media/sopran-tenor-bas.13a485b851fff546e1d8.mp3",
@@ -18,19 +18,22 @@
     "static/media/sopran-alt.mp3": "/te-deum-choir/static/media/sopran-alt.01d4f6c8251a9ec9646c.mp3",
     "static/media/sopran.mp3": "/te-deum-choir/static/media/sopran.8ef7dda90a03442ae97a.mp3",
     "static/media/alleluja.jpg": "/te-deum-choir/static/media/alleluja.31ef33ecfa84b1340e28.jpg",
+    "static/media/ukaz-mi-panie.jpg": "/te-deum-choir/static/media/ukaz-mi-panie.75f19576359b43d248e7.jpg",
     "static/media/swietosc-krzyza.jpg": "/te-deum-choir/static/media/swietosc-krzyza.e48857f1b3f188232b0b.jpg",
+    "static/media/przychodzisz-panie.jpg": "/te-deum-choir/static/media/przychodzisz-panie.6dff4095532fa42fad9f.jpg",
     "static/media/zawitaj-ukrzyzowany.jpg": "/te-deum-choir/static/media/zawitaj-ukrzyzowany.b88146138b2ff2cc3de8.jpg",
     "static/media/dzieki-Ci-Panie.jpg": "/te-deum-choir/static/media/dzieki-Ci-Panie.0ec385c8b7fd5e7b17dd.jpg",
+    "static/media/o-krwi-i-wodo.jpg": "/te-deum-choir/static/media/o-krwi-i-wodo.693fea81d568a75b60c4.jpg",
     "static/media/krzyzu_swiety_nade_wszystko-1.jpg": "/te-deum-choir/static/media/krzyzu_swiety_nade_wszystko-1.8d9aa41452eb33b32e72.jpg",
     "static/media/witaj-pokarmie.jpg": "/te-deum-choir/static/media/witaj-pokarmie.56d21aacd8ec19e6871c.jpg",
     "static/media/radujmy-sie2.jpg": "/te-deum-choir/static/media/radujmy-sie2.655ec99406e3f51ba84a.jpg",
     "static/media/radujmy-sie1.jpg": "/te-deum-choir/static/media/radujmy-sie1.19a8c8292b513dbdc45c.jpg",
     "index.html": "/te-deum-choir/index.html",
     "main.5856a5f5.css.map": "/te-deum-choir/static/css/main.5856a5f5.css.map",
-    "main.2520c531.js.map": "/te-deum-choir/static/js/main.2520c531.js.map"
+    "main.774be8b4.js.map": "/te-deum-choir/static/js/main.774be8b4.js.map"
   },
   "entrypoints": [
     "static/css/main.5856a5f5.css",
-    "static/js/main.2520c531.js"
+    "static/js/main.774be8b4.js"
   ]
 }
