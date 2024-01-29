@@ -11,6 +11,7 @@ import Alleluja from "./Alleluja";
 import PrzychodziszPanie from "./PrzychodziszPanie";
 import UkazMiPanie from "./UkazMiPanie";
 import OKrwiIWodo from "./OKrwiIWodo";
+import OSalutaris from "./OSalutaris";
 
 const MainPage = () => {
 	const [state, setState] = useState({
@@ -65,6 +66,9 @@ const MainPage = () => {
 			) : null}
 			{state.pieceNumber === "10" ? (
 				<OKrwiIWodo state={state} setState={setState} />
+			) : null}
+			{state.pieceNumber === "11" ? (
+				<OSalutaris state={state} setState={setState} />
 			) : null}
 		</div>
 	);

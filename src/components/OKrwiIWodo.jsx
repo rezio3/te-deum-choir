@@ -18,7 +18,6 @@ import okiwAll from "../audio/o-krwi-i-wodo/all.mp3";
 import img from "../img/o-krwi-i-wodo.jpg";
 
 const OKrwiIWodo = (props) => {
-	console.log("strona");
 	const [voice, setVoice] = useState({
 		sopran: false,
 		alt: false,
